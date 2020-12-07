@@ -1,0 +1,28 @@
+html {
+    background-color: whitesmoke;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+   
+   }
+
+p {
+    font-size: larger;
+}
+.hero-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 85px;
+}
+.tile-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+}
+.footer {
+    background-color: rgb(53, 52, 52);
+    color: silver;
+}
