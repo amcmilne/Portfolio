@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,7 +23,7 @@
                 <div id="menu" class="navbar-end is-flex">
                     <a class="navbar-item" href="./index.html">
                         Home
-                      </a>
+                    </a>
                     <a class="navbar-item" href="https://www.linkedin.com/in/amcmilneptaat/"><span><i
                                 class="fab fa-linkedin-in"></i></span>
                     </a>
@@ -60,18 +60,17 @@
             </nav>
         </div>
     </section>
-    <div class="box">
-        <article class="media">
-            <div class="media-left">
-                <figure class="image is-224x224">
-                    <img id="headshot" src="./images/amcm.jpg" alt="headshot">
-                </figure>
-            </div>
-            <div class="media-content">
-                <div class="content is-mobile">
-                    <h1>
-                        <strong>About Me:</strong>
-                    </h1>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-12">
+            <figure class="image is-156x156">
+                <img src="./images/amcm.jpg">
+            </figure>
+            <article class="tile is-child box">
+                <strong>
+                    <p class="tile-title">About Me:</p>
+                </strong>
+
+                <div class="content">
                     <p> My Name is Ann Cooper-Milne. I have a Bachelor of Science in Athletic Training and an
                         Associate of Applied Science is Physical Therapy Assisting. In combination, I have practiced
                         over 16 years. I currently work in an outpatient physical therapy setting. </p>
@@ -83,9 +82,11 @@
                         working in other areas of the healthcare industry. I am certain with my healthcare knowledge
                         I can help an up and coming healthcare business provide a better user experience.</p>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
+
     </div>
+
     <footer class="footer is-dark is-medium">
         <div class="content has-text-centered">
             <p>

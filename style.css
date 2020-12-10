@@ -9,11 +9,12 @@ body {
 
 .hero-title {
     font-family: 'Quicksand', sans-serif;
-    font-size: 85px;
+    font-size:5.5vw;
 }
 .tile-title {
     font-family: 'Quicksand', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    
 }
 .footer {
     background-color: rgb(53, 52, 52);
