@@ -75,3 +75,6 @@ body {
             opacity: 1;
         }
     }
+    #headshot {
+        float: left; padding: 0px 3px 0px 0px;
+    }
