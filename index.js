@@ -1,7 +1,6 @@
-var GITHUBAuthToken = 'c1f148a9bb80a242cdbda897b3b8a14a11eaa3d0';
 
 function getGITHubRepo(repoName) {
-    var z = fetch("https://api.github.com/users/" + repoName + "/repos" +"?&access_token="+GITHUBAuthToken)
+    var z = fetch("https://api.github.com/users/" + repoName + "/repos")
     .then((response) => response.json())
     .then((data) => {
       return data;
@@ -11,7 +10,7 @@ function getGITHubRepo(repoName) {
 }
 
 function getGITHubRepoDeployment(deploymentURL) {
-    var z = fetch(deploymentURL  +"?&access_token="+GITHUBAuthToken)
+    var z = fetch(deploymentURL)
     .then((response) => response.json())
     .then((data) => {
       return data;
