@@ -6,7 +6,11 @@ body {
     font-family: 'Quicksand', sans-serif;
    
    }
-
+#images.row {
+    align-content: center;
+    padding: 50px; 
+    margin-left: 400px; 
+}
 .hero-title {
     font-family: 'Quicksand', sans-serif;
     font-size:5.5vw;
